@@ -1,0 +1,87 @@
+body {
+    margin: 0;
+    text-align: center;
+    font-family: "Merryweather", serif;
+    font-size: 125%;
+}
+
+h1 {
+    margin: 50px auto 0 auto;
+    font-family: 'Sacramento', cursive;
+    font-size: 5.625rem;
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+}
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.top-image {
+    height: 15rem;
+    width: 85rem;
+}
+
+.top-container {
+    background-color: #E4F9F5;
+    position: relative;
+    padding-top: 100px;
+}
+
+.middle-container {
+
+}
+
+.bottom-container {
+
+}
+
+.it {
+   text-decoration: underline; 
+}
+
+.cv-image {
+    border-radius: 50%;
+    margin: 1%
+}
+
+.top-picture {
+    border-radius: 50%;
+    position: absolute;
+    right: 300px;
+    top: 50px;
+    height: 50%;
+    width: 10%; 
+}
+
+.bottom-picture {
+    border-radius: 50%;
+    position: absolute;
+    left: 300px;
+    bottom: 30px
+}
+
+.computer-image {
+    width: 30%;
+    float: left;
+    margin-right: 30px;
+}
+
+.geology-image {
+    width: 30%;
+    float: right;
+    margin-left: 30px;
+}
+
+.skill-row {
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+    line-height: 2;
+}
+
+
+
