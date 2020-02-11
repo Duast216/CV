@@ -1,4 +1,5 @@
 body {
+    color: #40514E;
     margin: 0;
     text-align: center;
     font-family: "Merryweather", serif;
@@ -20,6 +21,39 @@ h3 {
     font-family: 'Montserrat', sans-serif;
 }
 
+p {
+    line-height: 2;
+}
+
+hr {
+    border-style: none;
+    border-top-style: dotted;
+    border-color: grey;
+    border-width: 5px;
+    width: 5%;
+    margin: 100px auto;
+}
+
+a {
+    color: #11999E;
+    font-family: 'Montserrat', sans-serif;
+    margin: 10px 20px 10px 20px;
+    text-decoration: none;
+}
+
+a:hover {
+    color: black;
+}
+
+.footer-link-aubay:hover {
+    color: rgb(255, 60, 0);
+}
+
+.footer-link-LinkedIn:hover {
+    color: blue;
+}
+
+
 .top-image {
     height: 15rem;
     width: 85rem;
@@ -32,15 +66,21 @@ h3 {
 }
 
 .middle-container {
-
+    margin: 100px 0;
 }
 
 .bottom-container {
-
+    background-color: #E4F9F5;
+    padding: 50px 0 20px;
 }
 
 .it {
    text-decoration: underline; 
+}
+
+.intro {
+    width: 30%;
+    margin: auto;
 }
 
 .cv-image {
@@ -83,5 +123,40 @@ h3 {
     line-height: 2;
 }
 
+.contact-message {
+    width: 40%;
+    margin: 40px auto 60px;
+}
+
+#btn-contact {
+	box-shadow: 0px 10px 14px -7px #000000;
+	background:linear-gradient(to bottom, #8cbdcf 5%, #187a87 100%);
+	background-color:#8cbdcf;
+	border-radius:15px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:'Montserrat', sans-serif;
+	font-size:15px;
+	font-weight:bold;
+	padding:13px 32px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #14556b;
+}
+#btn-contact:hover {
+	background:linear-gradient(to bottom, #187a87 5%, #8cbdcf 100%);
+	background-color:#187a87;
+}
+#btn-contact:active {
+	position:relative;
+	top:1px;
+}
+
+.copyright-message {
+    color: black;
+    font-size: 0.75rem;
+    padding: 20px 0;
+
+}
 
 
