@@ -53,16 +53,20 @@ a:hover {
     color: blue;
 }
 
+.footer-link-piscapisca:hover {
+    color: #cd0986;
+}
 
 .top-image {
-    height: 15rem;
-    width: 85rem;
+    height: 20rem;
+    width: 100rem;
 }
 
 .top-container {
     background-color: #E4F9F5;
     position: relative;
     padding-top: 100px;
+    padding-bottom: 1px;
 }
 
 .middle-container {
@@ -75,7 +79,7 @@ a:hover {
 }
 
 .it {
-   text-decoration: underline; 
+    text-decoration: underline;
 }
 
 .intro {
@@ -94,7 +98,7 @@ a:hover {
     right: 300px;
     top: 50px;
     height: 50%;
-    width: 10%; 
+    width: 10%;
 }
 
 .bottom-picture {
@@ -129,34 +133,55 @@ a:hover {
 }
 
 #btn-contact {
-	box-shadow: 0px 10px 14px -7px #000000;
-	background:linear-gradient(to bottom, #8cbdcf 5%, #187a87 100%);
-	background-color:#8cbdcf;
-	border-radius:15px;
-	display:inline-block;
-	cursor:pointer;
-	color:#ffffff;
-	font-family:'Montserrat', sans-serif;
-	font-size:15px;
-	font-weight:bold;
-	padding:13px 32px;
-	text-decoration:none;
-	text-shadow:0px 1px 0px #14556b;
+    box-shadow: 0px 10px 14px -7px #000000;
+    background: linear-gradient(to bottom, #8cbdcf 5%, #187a87 100%);
+    background-color: #8cbdcf;
+    border-radius: 15px;
+    display: inline-block;
+    cursor: pointer;
+    color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 13px 32px;
+    text-decoration: none;
+    text-shadow: 0px 1px 0px #14556b;
 }
+
 #btn-contact:hover {
-	background:linear-gradient(to bottom, #187a87 5%, #8cbdcf 100%);
-	background-color:#187a87;
+    background: linear-gradient(to bottom, #187a87 5%, #8cbdcf 100%);
+    background-color: #187a87;
 }
+
 #btn-contact:active {
-	position:relative;
-	top:1px;
+    position: relative;
+    top: 1px;
 }
 
 .copyright-message {
     color: black;
     font-size: 0.75rem;
     padding: 20px 0;
-
 }
 
+#computer-skill-description:hover {
+    color: black;
+}
 
+.computer-skill-description {
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+#geology-skill-description:hover {
+    color: black;
+}
+
+.geology-skill-description {
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+.over:hover {
+    color: black;
+}
